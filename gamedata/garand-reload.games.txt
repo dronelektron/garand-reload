@@ -1,0 +1,13 @@
+"Games"
+{
+	"dod"
+	{
+		"Signatures"
+		{
+			"CDODSniperWeapon::Reload"
+			{
+				"linux"		"@_ZN16CDODSniperWeapon6ReloadEv"
+			}
+		}
+	}
+}

@@ -1,6 +1,6 @@
 # Garand reload
 
-Allows you to reload the M1 Garand even if the clip is not empty
+Allows you to reload the M1 Garand when the clip is not empty
 
 ### Supported Games
 

@@ -4,6 +4,7 @@
 
 #include "garand-reload/sdk-call"
 
+#include "modules/forward.sp"
 #include "modules/hook.sp"
 #include "modules/sdk-call.sp"
 
@@ -16,6 +17,7 @@ public Plugin myinfo = {
 };
 
 public void OnPluginStart() {
+    Forward_Create();
     SdkCall_Create();
 }
 

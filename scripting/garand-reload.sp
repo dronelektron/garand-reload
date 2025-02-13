@@ -12,7 +12,7 @@ public Plugin myinfo = {
     name = "Garand reload",
     author = "Dron-elektron",
     description = "Allows you to reload the M1 Garand when the clip is not empty",
-    version = "1.0.2",
+    version = "1.1.0",
     url = "https://github.com/dronelektron/garand-reload"
 };
 

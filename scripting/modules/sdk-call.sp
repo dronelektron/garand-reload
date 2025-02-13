@@ -24,5 +24,9 @@ static void SniperWeaponReload_Create(GameData gameData) {
 }
 
 void SdkCall_SniperWeaponReload(int weapon) {
-    SDKCall(g_sniperWeaponReload, weapon);
+    int client = GetEntPropEnt(weapon, Prop_Send, "m_hOwnerEntity");
+
+    if (Forward_OnGarandReload(client) < Plugin_Stop) {
+        SDKCall(g_sniperWeaponReload, weapon);
+    }
 }

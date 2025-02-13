@@ -14,3 +14,11 @@ Allows you to reload the M1 Garand when the clip is not empty
 
 * Download latest [release](https://github.com/dronelektron/garand-reload/releases)
 * Extract `plugins` and `gamedata` folders to `addons/sourcemod` folder of your server
+
+### API
+
+Called when the `client` tries to reload the `M1 Garand`
+
+```sourcepawn
+forward Action Garand_OnReload(int client);
+```

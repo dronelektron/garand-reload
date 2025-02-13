@@ -5,7 +5,7 @@
 #include "garand-reload/sdk-call"
 
 #include "modules/forward.sp"
-#include "modules/hook.sp"
+#include "modules/sdk-hook.sp"
 #include "modules/sdk-call.sp"
 
 public Plugin myinfo = {
@@ -23,6 +23,6 @@ public void OnPluginStart() {
 
 public void OnEntityCreated(int entity, const char[] className) {
     if (strcmp(className, "weapon_garand") == 0) {
-        Hook_Reload(entity);
+        SdkHook_Reload(entity);
     }
 }

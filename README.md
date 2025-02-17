@@ -19,6 +19,8 @@ Allows you to reload the M1 Garand when the clip is not empty
 
 Called when the `client` tries to reload the `M1 Garand`
 
+> Return `Plugin_Stop` to prohibit reloading with a non-empty clip
+
 ```sourcepawn
 forward Action Garand_OnReload(int client);
 ```

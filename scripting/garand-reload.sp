@@ -3,6 +3,7 @@
 #include <sdkhooks>
 
 #include "garand-reload/sdk-call"
+#include "garand-reload/weapon"
 
 #include "modules/forward.sp"
 #include "modules/sdk-hook.sp"

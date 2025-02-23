@@ -7,7 +7,7 @@
 			"CDODSniperWeapon::Reload"
 			{
 				"library"	"server"
-				"windows"	"\x53\x56\x8B\xF1\xE8\xA7"
+				"windows"	"\x53\x56\x8B\xF1\xE8\x17"
 				"linux"		"@_ZN16CDODSniperWeapon6ReloadEv"
 			}
 		}
